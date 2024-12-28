@@ -9,19 +9,19 @@ const Hero = () => {
     {
       title: "Energetic Zumba Classes",
       description: "Dance your way to fitness with high-energy Zumba workouts that feel like a party",
-      image: "/api/placeholder/1920/1080",
+      image: "/banner/zumba-banner.png",
       btnText: "Join Zumba"
     },
     {
       title: "Mindful Yoga Practice",
       description: "Find your inner peace and flexibility through our transformative yoga sessions",
-      image: "/api/placeholder/1920/1080",
+      image: "/banner/yoga-banner.png",
       btnText: "Start Yoga"
     },
     {
       title: "Bodyweight Training",
       description: "Build strength and endurance using just your body weight with expert guidance",
-      image: "/api/placeholder/1920/1080",
+      image: "/banner/weight-banner.png",
       btnText: "Train Now"
     }
   ];
@@ -57,7 +57,7 @@ const Hero = () => {
               alt={slide.title}
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-black to-black/70" />
+            <div className="absolute inset-0 bg-gradient-to-r from-black to-black/30" />
           </div>
 
           {/* Content */}
